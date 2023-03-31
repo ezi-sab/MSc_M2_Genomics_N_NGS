@@ -1,0 +1,57 @@
+---
+title: "single-cell RNA sequencing"
+author: "Eunji(Sabrina) K"
+date: "2023-03-31"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**This is the document from the practical of Module 2, Genomics and Next-generation sequencing.**
+
+The aims of this practical are:
+
+* Perform a standard analysis for examining one single cell sample
+
+* Perform an integration analysis for exploring the cellular heterogeneity across multiple samples
+
+* Perform differential expression analysis using pseudo-bulk approach
+
+```{r}
+###Setup###
+
+#install.packages('Seurat')
+library(Seurat)
+library(SingleCellExperiment)
+library(scater)
+library(SC3)
+library(ggplot2)
+
+# Specify this to enable plotting to work
+options(bitmapType='cairo')
+```
+
+### ONE SAMPLE ANALYSIS
+
+**Start with Patient N1469**
+
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
